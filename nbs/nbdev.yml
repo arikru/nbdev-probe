@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-probe"
+  site-url: "https://arikru.github.io/nbdev-probe"
+  description: "My nbdev probing project"
+  repo-branch: main
+  repo-url: "https://github.com/arikru/nbdev-probe"
