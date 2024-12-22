@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://arikru.github.io',
                 'git_url': 'https://github.com/arikru/nbdev-probe',
                 'lib_path': 'nbdev_probe'},
-  'syms': {'nbdev_probe.core': {'nbdev_probe.core.foo': ('core.html#foo', 'nbdev_probe/core.py')}}}
+  'syms': { 'nbdev_probe.base': { 'nbdev_probe.base.foo': ('base.html#foo', 'nbdev_probe/base.py'),
+                                  'nbdev_probe.base.say_bye': ('base.html#say_bye', 'nbdev_probe/base.py')},
+            'nbdev_probe.core': {'nbdev_probe.core.foo': ('core.html#foo', 'nbdev_probe/core.py')}}}
